@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HTML Analyzer Web Application
 
-## Available Scripts
+Overview
 
-In the project directory, you can run:
+The HTML Analyzer Web Application is a dynamic tool designed to enhance the accessibility of web content. Utilizing the latest AI technology, this innovative application examines HTML files, pinpoints areas where Web Content Accessibility Guidelines (WCAG) compliance can be improved, and automatically refines the code to meet these standards.
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+File Upload Capability: Users can upload HTML files directly through a user-friendly interface.
+Automated Analysis: The app leverages a sophisticated back-end, powered by LangChain and OpenAI, to analyze the HTML structure.
+WCAG Compliance Enhancement: It updates the HTML content, ensuring alt attributes, color contrasts, and heading levels conform to accessibility standards.
+Summary of Changes: A detailed summary of the changes is provided, explaining how each edit contributes to WCAG compliance.
+Before and After Preview: Users can view their original HTML code side by side with the improved version, providing clear insight into the enhancements made.
+Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Front-End: Developed with React.js, the front-end offers a modern and responsive user experience.
+Back-End: Utilizes Flask to handle file uploads and serve the processed HTML content.
+AI Processing: Employs LangChain AI and OpenAI's GPT models to intelligently analyze and modify HTML files.
+Setup and Installation
 
-### `npm test`
+To set up the HTML Analyzer Web Application on your local machine, you'll need to have Node.js, npm (Node Package Manager), and Python installed. Follow the instructions in the installation guide to install dependencies, run the Flask server, and launch the React front-end.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
 
-### `npm run build`
+Start the Flask server which will handle the file processing.
+Launch the React application to interact with the web interface.
+Upload an HTML file using the "Upload Page" button.
+View the summary of changes and the updated HTML preview.
+Contribution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions are welcome! If you're interested in enhancing the application's features or addressing issues, please read through our contribution guidelines for submitting pull requests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run eject`
+Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A special thank you to the open-source projects and APIs that made this tool possible, particularly the LangChain and OpenAI communities for their robust AI technologies.
