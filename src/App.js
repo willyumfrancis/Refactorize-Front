@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+// File: src/App.js
+import React, { useState } from 'react';
 import './App.css';
+import FileUpload from './components/FileUpload';
+import DisplayResults from './components/DisplayResults';
 
 function App() {
+  const [results, setResults] = useState({ summary: '', updated_html: '' });
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>HTML Analyzer</h1>
+        <FileUpload onResults={setResults} />
+        <DisplayResults results={results} />
       </header>
     </div>
   );
