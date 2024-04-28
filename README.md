@@ -4,6 +4,10 @@
 **Overview**
 The HTML Analyzer Web Application is a dynamic tool designed to enhance the accessibility of web content. Utilizing the latest AI technology, this innovative application examines HTML files, pinpoints areas where Web Content Accessibility Guidelines (WCAG) compliance can be improved, and automatically refines the code to meet these standards.
 
+
+
+
+
 **Features**
 
 File Upload Capability: Users can upload HTML files directly through a user-friendly interface.
@@ -38,6 +42,10 @@ View the summary of changes and the updated HTML preview.
 Contribution
 
 Contributions are welcome! If you're interested in enhancing the application's features or addressing issues, please read through our contribution guidelines for submitting pull requests.
+
+
+
+
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
