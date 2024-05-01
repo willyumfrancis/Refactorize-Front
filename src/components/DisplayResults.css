@@ -1,0 +1,49 @@
+/* File: src/components/DisplayResults.css */
+
+.resultsWrapper {
+    padding: 20px;
+    /* Space around the content */
+}
+
+.summarySection {
+    border: 1px solid #ccc;
+
+    width: 80%;
+    /* Adjust the width to suit your needs */
+    margin: 0 auto;
+    /* Centers the container horizontally */
+    margin-bottom: 20px;
+    /* Adds space below the section */
+    background-color: #29516d;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.comparisonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resultPanel {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #29516d;
+    border-radius: 10px;
+}
+
+.sectionTitle {
+    color: #eef5f5;
+    /* Teal color */
+}
+
+.summaryList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.summaryList li {
+    margin: 10px 0;
+}

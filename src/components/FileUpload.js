@@ -1,4 +1,4 @@
-// File: src/components/FileUpload.js
+// FileUpload.js
 import React, { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
@@ -9,17 +9,14 @@ function FileUpload({ onResults }) {
         const formData = new FormData();
         formData.append("file", file);
 
-        // Post to Flask server
         axios.post('http://127.0.0.1:5000/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data'
             }
         })
             .then(response => {
-                // Assuming the response structure matches what the Flask server sends
-                const { summary, updated_html } = response.data;
-                // Call the onResults function passed in as a prop with the new results
-                onResults({ summary, updated_html });
+                const { summary, updated_html, original_html } = response.data;
+                onResults({ summary, updated_html, original_html });
             })
             .catch(error => {
                 console.error('Error uploading and processing file', error);
