@@ -1,7 +1,7 @@
 
 **HTML Analyzer Web Application**
 
-**VIDEO OF IT IN ACTION**
+**VIDEO OF IT IN ACTION:**
 https://youtu.be/-l0oZukF03Y
 
 
