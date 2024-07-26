@@ -1,12 +1,12 @@
 
-**HTML Analyzer Web Application**
+**Refactorize**
 
 **VIDEO OF IT IN ACTION:**
 https://youtu.be/-l0oZukF03Y
 
 
 **Overview**
-The HTML Analyzer Web Application is a dynamic tool designed to enhance the accessibility of web content. Utilizing the latest AI technology, this innovative application examines HTML files, pinpoints areas where Web Content Accessibility Guidelines (WCAG) compliance can be improved, and automatically refines the code to meet these standards.
+Refactorize is a dynamic tool designed to enhance the accessibility of web content. Utilizing the latest AI technology, this innovative application examines HTML files, pinpoints areas where Web Content Accessibility Guidelines (WCAG) compliance can be improved, and automatically refines the code to meet these standards.
 
 
 
